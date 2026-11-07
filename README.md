@@ -23,8 +23,7 @@ Otherwise use REVIEW and zero approved cents.
 
 ## Tools
 
-The audit-invoices task exposes list_invoices, get_purchase_orders, and
-save_decisions. The hidden check_workspace reference tool enforces a fresh workspace. It submits total_count, approved_count, and review_count.
+The `audit-invoices` task exposes `list_invoices`, `get_purchase_orders` and `save_decisions`. The hidden `check_workspace` reference tool enforces a fresh workspace. The task submits total_count, approved_count and review_count.
 
 ## Layout
 
